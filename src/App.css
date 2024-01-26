@@ -1,0 +1,169 @@
+.container {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+
+.select-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.InitialForm{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+   
+
+}
+.InitialForm button{
+   padding: 30px 60px;
+}
+.SelectInit {
+  width: 1000px;
+
+  height: 60px;
+
+  padding: 16px;
+
+  font-size: 16px;
+
+  border-radius: 6px;
+
+  border: 2px solid #ccc;
+  display: flex;
+
+}
+.TableHaeding{
+  align-items: center;
+}
+
+button {
+  background-color: #fcfcfc;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #89888d;
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 1rem;
+}
+select {
+  font-size: 16px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s;
+}
+
+select:hover {
+  border-color: #777;
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+
+}
+table h1{
+  align-items: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  border-color: white;
+  font-size: 0.9em;
+  min-width: 400px;
+  box-shadow: 0 0 80px rgba(0, 0, 0, 0.15);
+}
+
+th,
+td {
+  border: 1px solid #ffffff;
+  text-align: left;
+  padding: 8px;
+  font-size: 32px;
+  color: white;
+}
+
+th {
+
+  color: white;
+}
+
+td {
+
+  color: white;
+}
+
+form {
+ display: flex;
+  gap: 5px;
+  align-items: flex;
+ 
+}
+
+form td:last-child {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+form * {
+  font-size: 28px;
+}
+
+.btn btn-1{
+    padding: 10px 10px;
+  align-items: left;
+}
+
+/* Base styles */
+.app-container {
+  padding: 20px;
+}
+
+input,
+select,
+button {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+
+/* Responsive table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 2px solid rgb(255, 255, 255);
+}
+
+/* Make table scrollable on small screens */
+
+
+
